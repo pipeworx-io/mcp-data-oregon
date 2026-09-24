@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/data-oregon",
   "title": "Data Oregon",
-  "description": "Oregon Open Data — US government open data (data.oregon.gov) via the Socrata SoQL API: state agencies, business, health & environment. Keyless.",
-  "version": "0.1.0",
+  "description": "Oregon Open Data — US government open data (data.oregon.gov) via the Socrata SoQL API: state…",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/data-oregon",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-data-oregon",
