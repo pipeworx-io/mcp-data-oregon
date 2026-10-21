@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-oregon",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Oregon Open Data — US government open data (data.oregon.gov) via the Socrata SoQL API: state agencies, business, health & environment. Keyless.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-5fd01fdc388c264df8449f36372846811a95044f16d67856e04805518a4dd319",
-    "sourceCommit": "56d3c46c09bb3078ffdbdbca992a93f406bcd382"
+    "sourceHash": "v1-3ec9483523905446a847db339c78428230c86ccbdcd286ce41636e5c2e5f7432",
+    "sourceCommit": "8355bf3d1eece256a62a89dba2278e7a77bebe07"
   }
 }
