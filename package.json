@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-data-oregon",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Oregon Open Data — US government open data (data.oregon.gov) via the Socrata SoQL API: state agencies, business, health & environment. Keyless.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-data-oregon": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-oregon"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-data-oregon.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/data-oregon",
   "pipeworx": {
-    "sourceHash": "v1-3509c7ad151ee297586228f2f012a2e68b0726e97b383e90bf385f131ce325da",
-    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
+    "mode": "gateway",
+    "slug": "data-oregon",
+    "gatewaySlug": "data-oregon",
+    "sourceHash": "v1-7f5652d9ff53488b58031d5301fe2d5ca6f2c0c52bc3f023c7ad2bf3bb4b8164",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
